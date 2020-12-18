@@ -1,0 +1,3 @@
+The VENV named dj-virt is purely created for the purpose of django projects.
+Creating other projects in this ENV is strictly prohibited.
+
