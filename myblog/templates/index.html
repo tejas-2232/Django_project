@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Twitter App</title>
+</head>
+<body>
+
+<h1> <font color="red"> Hello Everyone,How are you,  {{ title }} is working</font> </h1>
+
+## extracting data from  database
+
+{% for obj in object_list %}
+{{ obj.title }}<br/>
+{{ obj.content }}<br/>
+{{ obj.Last_updated}}<br/>
+{{ obj.timestamp }}<br/>
+{{ obj.id }}<br/>
+{{ obj.pk }}<br/>
+
+
+{% endfor %}
+
+</body>
+</html>
